@@ -38,8 +38,13 @@
     margin: 5px;
     display: flex;
 }
-.killer {
+.killer-container-vertical {
+    width: 40px;
+    height: 80px;
     background-color: black;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .shark-container {
@@ -49,9 +54,15 @@
     margin: 5px;
     display: flex;
 }
-.shark {
+.shark-container-vertical {
+    width: 40px;
+    height: 120px;
     background-color: teal;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .cruiser-container {
     width: 120px;
     height: 40px;
@@ -59,30 +70,71 @@
     margin: 5px;
     display: flex;
 }
-.cruiser {
+.cruiser-container-vertical {
+    width: 40px;
+    height: 120px;
     background-color: purple;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .battleship-container {
     width: 160px;
     height: 40px;
-    background-color: red;
+    background-color: orange;
     margin: 5px;
     display: flex;
 }
-.battleship {
-    background-color: red;
+.battleship-container-vertical {
+    width: 40px;
+    height: 160px;
+    background-color:  orange;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .carrier-container {
     width: 200px;
     height: 40px;
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
     margin: 5px;
     display: flex;
 }
-.carrier {
-    background-color: yellow;
+.carrier-container-vertical {
+    width: 40px;
+    height: 200px;
+    background-color: rgb(255, 255, 0);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .ship div {
     width: 40px;
     height: 40px;
+}
+
+.killer {
+    background-color: black;
+}
+.shark {
+    background-color: teal;
+}
+.cruiser {
+    background-color: purple;
+}
+.battleship {
+    background-color:  orange;
+}
+.carrier {
+    background-color: rgb(255, 255, 0);
+}
+
+.bang {
+    background-color: red;
+}
+.miss {
+    background-color: gray;
 }
