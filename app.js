@@ -21,6 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const width = 10
 
+    const socket = io();
+
     //Board Creation
     function summonBoard(grid, squares) {
         for (let i = 0; i < width*width; i++) {
